@@ -1,0 +1,634 @@
+/* =========================
+   1280px
+========================= */
+
+@media (max-width: 1280px){
+
+   /* ===== 基盤 ===== */
+
+   html{
+      font-size: 93.75%;
+   }
+
+   .container{
+      max-width: 1200px;
+   }
+
+   .section__title{
+      font-size: 2.2rem;
+   }
+
+   .btn__font{
+      font-size: 1.6rem;
+   }
+
+
+   /* ===== header ===== */
+
+   .header__layout{
+      padding-inline: 2rem;
+   }
+
+
+   /* ===== FV ===== */
+
+   .first-view__content{
+      left: 10%;
+   }
+
+   .first-view__lead-text{
+      font-size: 3.2rem;
+   }
+
+
+   /* ===== problem ===== */
+
+   .problem__content{
+      gap: 1.2rem;
+   }
+
+
+   /* ===== solution ===== */
+
+   .solution__card-area{
+      max-width: 75%;
+   }
+
+   .solution__card{
+      min-width: auto;
+   }
+
+
+   /* ===== flow ===== */
+
+   .flow__list{
+      gap: 1rem;
+   }
+
+
+   /* ===== CTA ===== */
+
+   .cta__title{
+      font-size: 2.5rem;
+   }
+
+}
+
+
+
+
+/* =========================
+   1000px
+========================= */
+
+@media (max-width: 1000px){
+
+   /* ===== 基盤 ===== */
+
+   html{
+      font-size: 87.5%;
+   }
+
+   .container{
+      max-width: 960px;
+   }
+
+   .section__title{
+      font-size: 2rem;
+      text-align: center;
+   }
+
+   .section__title-header{
+      font-size: 1.2rem;
+   }
+
+
+   /* ===== header ===== */
+
+   .header__layout{
+      gap: 1.6rem;
+   }
+
+   .header__logo img{
+      width: 90px;
+   }
+
+   .header__icon{
+      width: 24px;
+      height: auto;
+   }
+
+   .tel__label,
+   .tel__num{
+      font-size: 1rem;
+   }
+
+   .tel__info{
+      font-size: .8rem;
+   }
+
+   .header__btn{
+      padding: .8rem 1.2rem;
+   }
+
+
+   /* ===== FV ===== */
+
+   .first-view__lead-text{
+      font-size: 2.8rem;
+   }
+
+   .first-view__sub-text{
+      font-size: 1rem;
+   }
+
+   .first-view__img{
+      width: 80%;
+   }
+
+   .first-view__img img{
+      width: 100%;
+      object-fit: cover;
+   }
+
+   .first-view__layout::before{
+      width: 180px;
+      height: 260px;
+      left: -60px;
+   }
+
+   .fv-decoration::before{
+      width: 180px;
+      height: 140px;
+      left: -60px;
+   }
+
+
+   /* ===== problem ===== */
+
+   .problem__content{
+      flex-direction: column;
+   }
+
+   .problem__card{
+      padding: 2rem;
+   }
+
+   .problem__card-text{
+      font-size: 1rem;
+   }
+
+
+   /* ===== solution ===== */
+
+   #solution::before{
+      left: 42.5%;
+   }
+
+   .solution__card-area{
+      max-width: 100%;
+      align-items: center;
+   }
+
+   .solution__card-title{
+      font-size: 1.4rem;
+   }
+
+   .solution-decoration{
+      width: 42px;
+   }
+
+
+   /* ===== flow ===== */
+
+   .flow__list{
+      flex-direction: column;
+      gap: 3rem;
+   }
+
+   .flow__item-arrow{
+      transform: rotate(90deg);
+   }
+
+   .flow__item-num{
+      top: -14%;
+   }
+
+   .flow__card-text{
+      font-size: 1rem;
+   }
+
+
+   /* ===== faq ===== */
+
+   .faq__item-text{
+      font-size: 1rem;
+   }
+
+
+   /* ===== CTA ===== */
+
+   .cta__title{
+      font-size: 2rem;
+   }
+
+
+   /* ===== contact ===== */
+
+   .contact__form{
+      max-width: 680px;
+      gap: 2rem;
+   }
+
+   .contact__item label{
+      font-size: 1.2rem;
+   }
+
+   .contact__item input,
+   .contact__item textarea{
+      padding: 1.2rem;
+      font-size: 1.2rem;
+   }
+
+   .contact__item textarea{
+      min-height: 180px;
+   }
+
+}
+
+
+
+
+/* =========================
+   768px
+========================= */
+
+@media (max-width: 768px){
+
+   /* ===== 基盤 ===== */
+
+   html{
+      font-size: 81.25%;
+   }
+
+   .container{
+      max-width: 100%;
+      padding-inline: 1.2rem;
+   }
+
+   .section{
+      margin-bottom: 4rem;
+   }
+
+   .section__title{
+      font-size: 2rem;
+      line-height: 1.4;
+      text-align: center;
+   }
+
+   .section__title-header{
+      font-size: 1rem;
+   }
+
+   .btn__font{
+      font-size: 1rem;
+   }
+
+
+   /* ===== header ===== */
+
+   .header__layout{
+      padding-inline: 1rem;
+      align-items: center;
+      gap: .5rem;
+   }
+
+   .header__logo img{
+      width: 72px;
+   }
+
+   .header__cta{
+      width: 100%;
+      justify-content: flex-end;
+      gap: .5rem;
+   }
+
+   .header__tel{
+      gap: .4rem;
+   }
+
+   .header__icon{
+      width: 20px;
+      height: auto;
+   }
+
+   .tel__label,
+   .tel__num{
+      font-size: .9rem;
+   }
+
+   .tel__info{
+      font-size: .7rem;
+   }
+
+   .header__btn{
+      padding: .8rem 1rem;
+      white-space: nowrap;
+      font-size: .9rem;
+   }
+
+
+   /* ===== FV ===== */
+
+   .first-view__layout{
+      min-height: auto;
+      padding-block: 6rem;
+   }
+
+   .first-view__content{
+      left: 25%;
+      top: 25%;
+   }
+
+   .first-view__lead-text{
+      font-size: 2.2rem;
+      line-height: 1.3;
+   }
+
+   .first-view__header{
+      font-size: 1rem;
+   }
+
+   .first-view__sub-text{
+      font-size: .95rem;
+      line-height: 1.8;
+   }
+
+   .first-view__btn{
+      width: 100%;
+   }
+
+   .first-view__img{
+      width: 100%;
+      top: 35%;
+   }
+
+   .first-view__img img{
+      max-height: 420px;
+      object-fit: cover;
+      object-position: right center;
+   }
+
+   .first-view__layout::before{
+      width: 120px;
+      height: 180px;
+      left: -40px;
+   }
+
+   .fv-decoration::before{
+      width: 120px;
+      height: 100px;
+      left: -40px;
+   }
+
+   .first-view__cv{
+      top: 15%;
+      left: 70%;
+   }
+
+
+   /* ===== problem ===== */
+
+   .problem__content{
+      flex-direction: column;
+      padding-inline: 1rem;
+   }
+
+   .problem__card{
+      padding: 2rem;
+   }
+
+   .problem__card-text{
+      font-size: .95rem;
+      line-height: 1.7;
+   }
+
+
+   /* ===== solution ===== */
+
+   .solution__content{
+      padding-inline: 1.2rem;
+   }
+
+   .solution__card{
+      width: 100%;
+      padding: 1.8rem 1.2rem;
+      border-radius: 1.5rem;
+      gap: .8rem;
+   }
+
+   .solution__card-title{
+      font-size: 1.2rem;
+   }
+
+   .solution__card-description{
+      font-size: .95rem;
+      line-height: 1.7;
+   }
+
+   .decoration-01{
+      top: 10%;
+      left: -40px;
+   }
+
+   .decoration-02{
+      top: -12%;
+      left: 18%;
+   }
+
+   .decoration-03{
+      left: 38%;
+      bottom: -18%;
+   }
+
+   .decoration-04{
+      top: -22%;
+      right: 26%;
+   }
+
+   .decoration-05{
+      bottom: -12%;
+      right: 18%;
+   }
+
+   .decoration-06{
+      top: -8%;
+      right: -30px;
+   }
+
+
+   /* ===== flow ===== */
+
+
+   .flow__item-num{
+      top: -10%;
+   }
+
+   .flow__card-title{
+      font-size: 1.2rem;
+   }
+
+   .flow__card-text{
+      font-size: .95rem;
+      line-height: 1.7;
+   }
+
+
+   /* ===== faq ===== */
+
+   .faq__item{
+      min-width: 297px;
+      max-width: 297px;
+      padding-inline: 1rem;
+   }
+
+   .faq__item-text{
+      font-size: .95rem;
+      line-height: 1.7;
+   }
+
+
+   /* ===== CTA ===== */
+
+   .cta__title{
+      font-size: 1.8rem;
+      line-height: 1.5;
+   }
+
+   .cta__btn{
+      width: 100%;
+      padding: 1.5rem;
+      gap: 1rem;
+   }
+
+
+   /* ===== footer ===== */
+
+   .footer__layout{
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+   }
+
+
+   /* ===== contact ===== */
+
+   .contact__layout{
+      padding-inline: 1rem;
+   }
+
+   .contact__form{
+      max-width: 100%;
+      gap: 1.6rem;
+   }
+
+   .contact__item{
+      gap: .6rem;
+   }
+
+   .contact__item label{
+      font-size: 1rem;
+   }
+
+   .contact__item input,
+   .contact__item textarea{
+      padding: 1rem;
+      font-size: 1rem;
+      border-radius: .8rem;
+   }
+
+   .contact__item textarea{
+      min-height: 160px;
+   }
+
+   .contact__submit{
+      
+      max-width: 320px;
+      padding: 1rem;
+      font-size: 1rem;
+   }
+
+
+    /* ===== thanks ===== */
+
+   .thanks{
+      padding-block: 6rem;
+   }
+
+   .thanks__layout{
+      gap: 1.5rem;
+   }
+
+   .thanks__text{
+      font-size: 1rem;
+   }
+
+   .thanks__btn{
+      width: 100%;
+      max-width: 320px;
+
+      padding: 1rem;
+   }
+
+}
+
+
+
+
+/* =========================
+   500px
+========================= */
+
+@media (max-width: 500px){
+
+   /* ===== FV ===== */
+
+   .first-view__content{
+      left: 15%;
+   }
+
+   .first-view__cv{
+      left: 60%;
+   }
+
+   .first-view__lead-text{
+      font-size: 1.8rem;
+   }
+
+   .first-view__btn{
+      padding: 1rem 1.2rem;
+   }
+
+
+   /* ===== solution ===== */
+
+   #solution::before{
+      left: 40%;
+   }
+
+
+   /* ===== contact ===== */
+
+   .contact__layout{
+      gap: 2rem;
+   }
+
+   .contact__form{
+      gap: 1.2rem;
+   }
+
+   .contact__item textarea{
+      min-height: 140px;
+   }
+
+}
